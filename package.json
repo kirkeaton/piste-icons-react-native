@@ -1,0 +1,76 @@
+{
+  "name": "@piste-icons/react-native",
+  "description": "React Native components for ski trail difficulty symbols",
+  "version": "0.0.0-development",
+  "author": "Kirk Eaton <contact@kirkeaton.ca>",
+  "bugs": {
+    "url": "https://github.com/kirkeaton/piste-icons-react-native/issues"
+  },
+  "devDependencies": {
+    "@piste-icons/svg": "1.1.0",
+    "@svgr/babel-plugin-add-jsx-attribute": "8.0.0",
+    "@svgr/babel-plugin-remove-jsx-attribute": "8.0.0",
+    "@svgr/babel-plugin-transform-react-native-svg": "8.1.0",
+    "@svgr/cli": "8.1.0",
+    "@types/react": "18.2.24",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "prettier": "3.0.3",
+    "react": "18.2.0",
+    "react-native-svg": "13.14.0",
+    "semantic-release": "22.0.5",
+    "typescript": "5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kirkeaton/piste-icons-react-native#readme",
+  "keywords": [
+    "piste",
+    "ski",
+    "trail",
+    "difficulty",
+    "icons",
+    "react",
+    "react-native"
+  ],
+  "license": "BSD-3-Clause",
+  "lint-staged": {
+    "*.{json,md,ts,tsx}": "prettier --write"
+  },
+  "main": "./dist/index.js",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-native-svg": "^13.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkeaton/piste-icons-react-native.git"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn generate && tsc",
+    "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
+    "generate": "yarn svgr --config-file .svgrrc.js node_modules/@piste-icons/svg",
+    "prepare": "husky install",
+    "prepublishOnly": "yarn build"
+  },
+  "types": "./dist/index.d.ts"
+}
