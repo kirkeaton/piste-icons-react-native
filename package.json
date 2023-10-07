@@ -12,7 +12,7 @@
     "@svgr/babel-plugin-remove-jsx-attribute": "8.0.0",
     "@svgr/babel-plugin-transform-react-native-svg": "8.1.0",
     "@svgr/cli": "8.1.0",
-    "@types/react": "18.2.24",
+    "@types/react": "18.2.25",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "prettier": "3.0.3",
