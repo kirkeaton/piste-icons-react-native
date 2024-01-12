@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/kirkeaton/piste-icons-react-native/issues"
   },
+  "dependencies": {
+    "react-native-svg": "14.1.0"
+  },
   "devDependencies": {
     "@piste-icons/svg": "1.1.0",
     "@svgr/cli": "8.1.0",
@@ -14,7 +17,6 @@
     "lint-staged": "15.2.0",
     "prettier": "3.1.1",
     "react": "18.2.0",
-    "react-native-svg": "14.1.0",
     "semantic-release": "22.0.12",
     "typescript": "5.3.3"
   },
@@ -44,8 +46,8 @@
   },
   "main": "./dist/index.js",
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-native-svg": "^13.0.0"
+    "react": "*",
+    "react-native": "*"
   },
   "publishConfig": {
     "access": "public"
