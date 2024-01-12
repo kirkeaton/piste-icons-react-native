@@ -44,7 +44,6 @@
   "lint-staged": {
     "*.{json,md,ts,tsx}": "prettier --write"
   },
-  "main": "./dist/index.js",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
