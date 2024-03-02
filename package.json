@@ -15,7 +15,7 @@
     "@types/react": "18.2.61",
     "husky": "9.0.11",
     "lint-staged": "15.2.0",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "react": "18.2.0",
     "react-native": "0.73.5",
     "semantic-release": "23.0.2",
