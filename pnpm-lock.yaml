@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   react-native-svg:
-    specifier: 15.0.0
-    version: 15.0.0(react-native@0.73.6)(react@18.2.0)
+    specifier: 15.1.0
+    version: 15.1.0(react-native@0.73.6)(react@18.2.0)
 
 devDependencies:
   '@piste-icons/svg':
@@ -5035,8 +5035,8 @@ packages:
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
 
-  /react-native-svg@15.0.0(react-native@0.73.6)(react@18.2.0):
-    resolution: {integrity: sha512-ZUEXlzdU3cHjhOuc4BP7fbvabmz8yIuH4ocKSEr5V3P5skk2wnbEyZd3p7dzV9IoODgguCe7tcrNRGwr9pLRig==}
+  /react-native-svg@15.1.0(react-native@0.73.6)(react@18.2.0):
+    resolution: {integrity: sha512-p0Sx0EpQNk1nu6UcMEiB8K9P04n3J7s+pNYUwf1d/Yz+v4hk961VjuVqjyndgiEbHZyWiKWLZRVNuvLpwjPY2A==}
     peerDependencies:
       react: '*'
       react-native: '*'
