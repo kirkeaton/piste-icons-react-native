@@ -10,6 +10,7 @@
     "react-native-svg": "15.1.0"
   },
   "devDependencies": {
+    "@kirkeaton/prettier-config": "1.0.1",
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
     "@types/react": "18.2.67",
@@ -47,12 +48,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5"
   },
   "release": {
     "branches": [
