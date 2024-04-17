@@ -42,7 +42,7 @@
     "react-native"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@9.0.1",
+  "packageManager": "pnpm@9.0.2",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
