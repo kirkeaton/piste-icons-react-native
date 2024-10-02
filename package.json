@@ -7,7 +7,7 @@
     "url": "https://github.com/kirkeaton/piste-icons-react-native/issues"
   },
   "dependencies": {
-    "react-native-svg": "15.6.0"
+    "react-native-svg": "15.7.1"
   },
   "devDependencies": {
     "@kirkeaton/prettier-config": "1.0.2",
